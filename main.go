@@ -3,5 +3,5 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("golang Github Actions")
+	fmt.Println("golang Github Actions test")
 }
