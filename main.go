@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"net/http"
 
 	"github.com/gin-gonic/gin"
@@ -94,4 +95,8 @@ func main() {
 	router.PUT("/company/:id", UpdateCompanyHandler)
 	router.DELETE("/company/:id", DeleteCompanyHandler)
 	router.Run()
+}
+
+func testDo() {
+	fmt.Println("testdo")
 }
